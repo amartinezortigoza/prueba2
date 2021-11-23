@@ -1,0 +1,20 @@
+@charset "utf-8";
+@media screen and (max-width:375px){
+.contenedor-flexible-3, .contenedor-flexible-3>div{
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    width: 10%;
+}
+	.titulo-p-reciente, .parrafo-p-reciente{
+    font-size: 10px;
+	}
+	.imgproyectoreciente{
+    width: 10%;
+	}
+	.super-cabecera{
+	flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+	}
+	}

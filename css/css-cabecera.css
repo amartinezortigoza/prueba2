@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+.super-cabecera nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.super-cabecera nav ul li{
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 15%;
+    margin-left: 55px;
+    margin-top: 40px;
+}
+.super-cabecera nav ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-top: 68px;
+}
+.super-cabecera nav ul li i{
+    display:block;
+    vertical-align:top;
+    width:100%;
+    text-align:center;
+}
+.super-cabecera nav ul li span.borde{
+    display:block;
+    height:4px;
+    background-color:#FFFFFF;
+}
+.super-cabecera nav ul li span.texto{
+    display:block;
+    height:40px;
+    line-height:40px;
+    text-align:center;
+    background-color:#EFAD66;
+}
+.super-cabecera nav ul li:hover{
+    background-color:#FFFFFF;
+}
+.super-cabecera nav ul li:hover span.borde{
+    background-color:#CEE8F4;
+}
+.super-cabecera nav ul li:hover a i{
+    color:#222;
+}
+.super-cabecera nav ul li:hover a .texto{
+    color:#000;
+    background-color:#CEE8F4;
+}
+.super-cabecera li,
+.super-cabecera li *{
+transition:400ms;
+}
+.parrafo-cita {
+}
+.citatextual {
+    font-family: source-sans-pro;
+    font-weight: 200;
+    font-size: 15px;
+    padding-top: 37px;
+    font-style: italic;
+}
